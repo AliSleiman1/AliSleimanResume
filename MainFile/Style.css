@@ -256,7 +256,7 @@ footer {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 668px) {
   .footer-logos {
     margin-left: 0; /* Remove left margin */
     justify-content: center; /* Center the logos horizontally */
