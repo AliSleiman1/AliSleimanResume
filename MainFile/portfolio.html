@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: black;
+        color: white;
+      }
+
+      /* Portfolio Section */
+      #portfolio {
+        
+        padding: 50px 20px;
+      }
+
+      #portfolio h2 {
+        text-align: center;
+        color:#007bff;
+        margin-bottom: 30px;
+      }
+
+      .portfolio-item {
+        background-color: #fff;
+        box-shadow: 0px 0px 15px #007bff;
+        border-radius: 8px;
+        
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      .portfolio-item img {
+        width: 100%;
+        height: auto;
+      }
+
+      .portfolio-item-info {
+        padding: 20px;
+      }
+
+      .portfolio-item-info h3 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .portfolio-item-info p {
+        color: #666;
+        margin-bottom: 15px;
+      }
+
+      .portfolio-item-info .btn {
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+      }
+
+      .portfolio-item-info .btn:hover {
+        background-color: #0056b3;
+      }
+      .back {
+        margin-top: 35px;
+        color: rgb(0, 0, 0);
+        padding: 0.5% 2%;
+        margin-left: 5%;
+        border-radius: 10%;
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: background-color 0.3s ease-in-out,
+          border-color 0.3s ease-in-out;
+          text-decoration: none;
+      }
+
+      .back:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1" />
+        <div class="portfolio-item-info">
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2" />
+        <div class="portfolio-item-info">
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <!-- Add more portfolio items as needed -->
+    </section>
+    <a class="back" href="index.html">Back</a>
+  </body>
+</html>
